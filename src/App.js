@@ -10,10 +10,7 @@ function App() {
       const response = await fetch("http://localhost:3000/numbers"); // Use "http" instead of "https"
       const numbers = await response.json();
       setNumbersList(numbers);
-    
-      // Display numbers in browser, targeting the <p> tag with id="numbers"
-    //   const numbersElement = document.getElementById("numbers");
-    //   numbersElement.innerHTML = numbers.join("\n");
+  
     } 
     catch (error) {
     console.error("Error fetching numbers:", error);
@@ -28,7 +25,7 @@ function App() {
      
     
         { numbersList && numbersList.map((number, index) => (
-          <p key={index}>{number}</p>
+          <p className="numbers" key={index}>{number}</p>
         ))}
     
   

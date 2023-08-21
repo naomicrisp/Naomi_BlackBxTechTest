@@ -26,7 +26,6 @@ for (let i = 0; i < numbers.length; i++) {
     else numbers[i] = numbers[i]
     }  
 
-
 // STEP 5: write the numbers to numbers.json
 
     await fs.writeFile(fileName, JSON.stringify(numbers));

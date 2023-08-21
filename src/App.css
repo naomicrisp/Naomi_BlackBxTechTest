@@ -1,5 +1,33 @@
+*{
+background-color: aquamarine;
+}
+
 .App {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+  background-color: rgb(226, 255, 255);
+  border: none;
+  padding: 20px;
+  border-radius: 2%;
+  width: 300px;
+}
+  
+button:hover {
+    background-color: rgb(5, 245, 245);
+    cursor: pointer;
+  }
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(63, 73, 104);
+}
+
+.numbers {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(63, 73, 104);
+}
